@@ -1,0 +1,48 @@
+CREATE DATABASE Biblioteca;
+
+USE Biblioteca;
+
+CREATE TABLE usuario (
+cod_usuario INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nome        	 	VARCHAR (50) 		NOT NULL,
+Data_nascimento  	DATE,	 		
+grau_de_escolaridade 	VARCHAR (50)	 	NOT NULL,
+endereço   	 	VARCHAR (50)		NOT NULL,
+cidade     	 	VARCHAR (20) 		NOT NULL,
+estado     	 	VARCHAR (10) 		NOT NULL,
+cep        	 	VARCHAR (10)		NOT NULL,
+telefone   	 	VARCHAR(20) 		NOT NULL,
+gênero  		VARCHAR (10)		NOT NULL,
+e_mail 			VARCHAR (50)		NOT NULL
+
+);
+
+CREATE TABLE livros(
+
+cod_livro INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+titulo	VARCHAR (50)	NOT NULL,
+autor	VARCHAR (50)	NOT NULL,
+tema	VARCHAR (50)	NOT NULL,
+Data_Pub	VARCHAR (50) NOT NULL,
+categoria 	VARCHAR (50) NOT NULL,
+quantidade_copias	VARCHAR (50) NOT NULL
+
+
+);
+
+CREATE TABLE transacoes (
+cod_transacao INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Data_Transacao VARCHAR (50) NOT NULL,
+emprestimo_Transacao	VARCHAR (50) NOT NULL
+
+
+
+);
+
+CREATE TABLE emprestimos (
+cod_emprestimo INT NOT NULL AUTO_INCREMENT PRIMARY KEY
+
+
+
+);
+
