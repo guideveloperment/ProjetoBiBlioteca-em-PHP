@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8>
+		<title>BIBLIOTECA</title>
+		<meta name="author" content="BIBLIOTECA">
+		<link real="stylesheet" href="css/estilo.css">
+	</head>
+	<body>
+		<header>BIBLIOTECA</header>
+		<nav>DADOS PESSOAIS</nav>
+		<section>
+			<article></article>
+		</section>
+		<aside>PERFIL DE INTERESSE</aside>
+		<aside>EMPRÉSTIMO</aside>
+		</body>
+		</html>
+
+
+
+
+	
+	
+	
+	
+	
+	</nav>
+	<div class="conteudo">
+	<section>
+		<div class="imagens"></div>
+		</section>
+		<aside></aside>
+		<div>
+		
+		</div>
+		</body>
+	
+	
+
+
+
+</html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>BIBLIOTECA - Cadastrar</title>
+	
+		
+	
+	</head>
+	<body>
+		<h1>Dados Pessoais</h1>
+		<form method="POST"action="processa.php">
+			<label>Nome: </label>
+			<input type="text" name="nome" placeholder="Digite o nome completo"><br><br>
+			
+			<label>Data de nascimento: </label>
+			<input type="datalist" name="Data" placeholder="Digite seu nascimento"><br><br>
+							
+			<label>Grau de escolaridade: </label>
+			<input type="text" name="Graudeescolaridade" placeholder="Digite sua escolaridade"><br><br>
+			
+						
+			<label>Endereço: </label>
+			<input type="text" name="Endereço" placeholder="Digite seu endereço"><br><br>
+					
+			
+			<label>CEP: </label>
+			<input type="number_format" name="CEP" placeholder="Digite o número de cep"><br><br>
+			
+			<label>Cidade: </label>
+			<input type="text" name="Cidade" placeholder="Digite sua cidade"><br><br>
+			
+			<label>Estado: </label>
+			<input type="text" name="Estado" placeholder="Digite o seu estado"><br><br>
+			
+			<label>Telefone: </label>
+			<input type="number_format" name="Telefone" placeholder="Digite o seu telefone"><br><br>
+			
+		    <label>Gênero: </label>
+			<input type="text" name="Gênero" placeholder="Digite o seu gênero"><br><br>
+			
+			<label>E-mail: </label>
+			<input type="email" name="email" placeholder="Digite o seu email"><br><br>
+		
+			<input type="submit" value="Cadastrar">
+		
+			
+		
+		</form>
+	
+	</body>
+</html>
+
+
+
+
+<html>
+
+<h1>Perfil de Interesse</h1>
+<form method="POST" action="pesquisar.php">
+	Pesquisar o nome do livro:<input type="text" name="pesquisar"placeholder="Digite o nome do livro">
+	<input type="submit" value="BUSCAR"place>
+	
+	<form method="POST" action="pesquisar.php">
+	Pesquisar o nome do autor:<input type="text" name="pesquisar"placeholder="Digite o nome do autor">
+	<input type="submit" value="BUSCAR"place>
+	
+	<form method="POST" action="pesquisar.php">
+	Pesquisar por tema:<input type="text" name="pesquisar"placeholder="Digite o tema escolhido">
+	<input type="submit" value="BUSCAR"place>
+	
+	<form method="POST" action="pesquisar.php">
+	Pesquisar por data de publicação:<input type="text" name="pesquisar"placeholder="Digite a data de publicação">
+	<input type="submit" value="BUSCAR"place>
+	
+	<form method="POST" action="pesquisar.php">
+	Pesquisar por categoria:<input type="text" name="pesquisar"placeholder="Digite a categoria desejada">
+	<input type="submit" value="BUSCAR"place>
+	
+	<form method="POST" action="pesquisar.php">
+	Pesquisar por quantidade de cópias:<input type="text" name="pesquisar"placeholder="Digite a quantidade">
+	<input type="submit" value="BUSCAR"place>
+	
+     <head>
+		
+			
+	
+	
+
+</form>
+
+</html>
+
+<html> 
+
+<h1> Empréstimo:</h1>
+<form method="POST" action="processa.php">
+
+			<section>
+					<form action=""method="post">
+					
+						<select class="campos" name="opcao">
+							<option value="0">Escolha uma opção</option>
+							<option value="1">Renovação</option>
+							<option value="2">Reserva</option>
+							<option value="3">Débito</option>
+							<option value="4">Histórico</option>
+							<option value="5">Afastamento</option>
+						</select><br><br>
+						
+						
+			
+			<input type="submit" value="Gravar">
+			
+				
+
+
+
+				
+
+</html>
+      
+
